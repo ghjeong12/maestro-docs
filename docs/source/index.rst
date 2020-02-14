@@ -10,7 +10,7 @@ Welcome to Maestro's documentation!
    :maxdepth: 1
    
    installation
-   tutorials/index
+   tutorials/tutorial
 
 
 
