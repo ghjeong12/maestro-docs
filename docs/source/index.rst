@@ -11,6 +11,7 @@ Welcome to Maestro's documentation!
    
    installation
    tutorials/tutorial
+   useful_links
 
 
 
