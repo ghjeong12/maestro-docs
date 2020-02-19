@@ -3,7 +3,7 @@
 =============
 Installation
 =============
-To install Maestro, simply clone it from the GitHub.
+To install MAESTRO, simply clone it from the GitHub.
 
 .. code:: bash
 
@@ -20,15 +20,6 @@ Compiling the Code
 .. code:: bash
 
     scons
-	
-.. _Running Maestro:
-	
-Running Maestro
----------------
-
-.. code:: bash
-
-    ./run.sh
 
 .. _Package Dependencies:
 	
