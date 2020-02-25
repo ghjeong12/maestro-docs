@@ -1,17 +1,10 @@
 
-.. Maestro documentation master file, created by
-   sphinx-quickstart on Tue Feb 11 19:34:24 2020.
-      You can adapt this file completely to your liking, but it should at least
-         contain the root `toctree` directive.
-
-
 Getting Started
 ================
-
-
 
 .. toctree::
    :maxdepth: 1
    
    installation
    tutorials/running_maestro
+   examples
