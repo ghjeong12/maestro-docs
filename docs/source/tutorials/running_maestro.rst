@@ -17,7 +17,7 @@ Parameters Input to MAESTRO
 
 	--print_log_file=true/false : If set true, MAESTRO prints out a log file that contains various information of detailed computation patterns to "log.txt"
 
-	--DFSL_file='data/DFSL_description/Resnet50_dla.m' : Specify the target dataflow and layer description file
+	--Mapping_file='data/mapping/Resnet50_dla.m' : Specify the target dataflow and layer description file
 
 	--noc_bw=64 : NoC bandwidth
 
@@ -146,7 +146,7 @@ Check the messages from the help for the future reference
 
 	--dataflow: the dataflow for each layer, choose from "os, ws, rs, dla"
           
-	--outfile: the MAESTRO DFSL output file
+	--outfile: the MAESTRO Mapping output file
 
 The mapping file, out.m, will be generated in ../../data/mapping
 
@@ -167,7 +167,7 @@ Change the contents of "run.sh" to use the mapping file generated
 
 .. code-block:: none
 		
-	--DFSL_file='data/mapping/out.m'
+	--Mapping_file='data/mapping/out.m'
 	
 Run MAESTRO
 

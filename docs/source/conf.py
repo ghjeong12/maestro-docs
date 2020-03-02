@@ -40,6 +40,7 @@ release = u''
 # ones.
 import sphinx_rtd_theme
 extensions = [
+'nbsphinx',
 'recommonmark',
 'sphinx_rtd_theme'
 ]

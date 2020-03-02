@@ -7,4 +7,6 @@ Getting Started
    
    installation
    tutorials/running_maestro
+   maestro_output_analysis/maestro_output_analysis.rst
    examples
+   

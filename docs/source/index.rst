@@ -13,8 +13,6 @@ Welcome to MAESTRO's documentation!
    useful_links
 
 
-
-
 Indices and tables
 ==================
 
