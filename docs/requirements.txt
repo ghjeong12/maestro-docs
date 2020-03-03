@@ -1,0 +1,9 @@
+commonmark==0.9.1
+docutils==0.16
+nbconvert==5.6.1
+nbformat==4.4.0
+nbsphinx==0.5.1
+recommonmark==0.6.0
+Sphinx==1.8.5
+sphinx-rtd-theme==0.4.3
+sphinxcontrib-websupport==1.1.2
