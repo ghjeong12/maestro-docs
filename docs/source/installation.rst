@@ -7,7 +7,7 @@ To install MAESTRO, simply clone it from the GitHub.
 
 .. code:: bash
 
-   git clone https://github.com/georgia-tech-synergy-lab/maestro-dev.git
+   git clone https://github.com/georgia-tech-synergy-lab/maestro.git
 
 After that, go to the downloaded directory.
 Please make sure that you have all the packages installed(refer :ref:`Package Dependencies`)

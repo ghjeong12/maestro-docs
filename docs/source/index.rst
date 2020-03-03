@@ -10,6 +10,7 @@ Welcome to MAESTRO's documentation!
    :maxdepth: 2
    
    getting_started
+   features
    useful_links
 
 
