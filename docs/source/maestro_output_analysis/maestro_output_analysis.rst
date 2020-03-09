@@ -1,16 +1,13 @@
 .. _Result Analysis:
 
-Result Analysis
-===========================
+Result Analysis using Jupyter Notebooks
+========================================
 
 .. note::
-	This page was generated from result_analysis.ipynb. Interactive online version:
-	
+	This page was generated from maestro_output_analysis.ipynb. To interact with this **Jupyter Notebook** simply launch from here:
+
 	.. image:: https://mybinder.org/badge_logo.svg
-         :target: https://mybinder.org/v2/gh/smalik48/maestro_result_analysis/master 
-
-
-
+         :target: https://mybinder.org/v2/gh/smalik48/maestro_result_analysis/master
 
 
 MAESTRO
@@ -51,7 +48,7 @@ easy to use open source data analysis and manipulation tool
 
 .. code:: ipython3
 
-    %matplotlib inline 
+    %matplotlib inline
     import numpy as np
     import pandas as pd
     import matplotlib.pyplot as plt
@@ -62,7 +59,7 @@ easy to use open source data analysis and manipulation tool
 .. parsed-literal::
 
     importing Jupyter notebook from Util_graph.ipynb
-    
+
 
 2 - Reading the output file
 ---------------------------
@@ -160,7 +157,7 @@ variables provided below.
 .. code:: ipython3
 
     x = 'Layer Number'
-    y = 'Activity count-based Energy (nJ)' 
+    y = 'Activity count-based Energy (nJ)'
     color = 'red'
     figsize = (20,10)
     legend = 'true'
@@ -187,7 +184,7 @@ variables provided below.
 .. code:: ipython3
 
     x = 'Layer Number'
-    y = 'Throughput Per Energy (GMACs/s*J)' 
+    y = 'Throughput Per Energy (GMACs/s*J)'
     color = 'green'
     figsize = (20,10)
     legend = 'true'
@@ -236,5 +233,3 @@ variables provided below.
 
 
 .. image:: output_9_1.png
-
-
