@@ -12,7 +12,10 @@ Current MAESTRO supports the following layers in a mapping.
 
 *    TRCONV
 
-Also, FC and GEMM can be supported by MAESTRO indirectly by specifying the parameters properly using the CONV type.
+*    FC
+
+*    GEMM
+
 
 .. note::
    For more information on the Mapping, please see
