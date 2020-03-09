@@ -37,10 +37,28 @@ Parameters Input to MAESTRO
 
 .. _Hardware Description:
 
-Hardware Description
----------------------
+Hardware Description File
+--------------------------
 
- 
+The Hardware Description file is provided as an input to MAESTRO as:
+
+.. code-block:: none
+
+	--HW_file='./hw_parameters.m' : Specify the Hardware parameters file
+
+This file contains Hardware Description as follows:
+
+
+===============  ======================
+NumPEs: 1024     **Number of PEs**
+L1Size: 256	     **l1 buffer size**
+L2Size: 4096     **l2 buffer size**
+NoC_BW: 64       **NoC bandwidth**
+===============  ======================
+
+.. note::
+   For more information on the Hardware Supported, please see
+   :ref:`Hardware Supported`.
 
 .. _Mapping Definition:
 
