@@ -10,6 +10,8 @@ MAESTRO supports a wide range of accelerators that consist of global shared scra
 
 Hardware configuration can be defined using hardware parameters above and cluster directives and their size in mapping descriptions.
 
+- Examples
+
 .. image:: images/example_hw.png
 
 MAESTRO supports any level of hierarchies but only supports uniform clusters (e.g., MAESTRO does not support an accelerator with a 2D PE array that has irregular number of PEs in each row).
