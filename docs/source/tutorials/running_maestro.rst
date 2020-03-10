@@ -17,23 +17,9 @@ Parameters Input to MAESTRO
 
 	--print_log_file=true/false : If set true, MAESTRO prints out a log file that contains various information of detailed computation patterns to "log.txt"
 
-	--Mapping_file='data/mapping/Resnet50_dla.m' : Specify the target dataflow and layer description file
+	--Mapping_file='data/mapping/Resnet50_kcp.m' : Specify the target dataflow and layer description file
 
-	--HW_file='./hw_parameters.m' : Specify the Hardware parameters file
-
-	--noc_bw=64 : NoC bandwidth
-
-	--noc_hop_latency=1 : NoC latency per hops
-
-	--noc_mc_support=true : NoC multicast support (In current dev version it's always on)
-
-	--num_pes=256 : Number of PEs
-
-	--num_pe_alus=1 : PE ALU vector width
-
-	--l1_size=32 : l1 buffer size
-
-	--l2_size=512 : l2 buffer size
+	--HW_file='data/hw/accelerator_1.m' : Specify the Hardware parameters file
 
 .. _Hardware Description:
 
@@ -44,17 +30,20 @@ The Hardware Description file is provided as an input to MAESTRO as:
 
 .. code-block:: none
 
-	--HW_file='./hw_parameters.m' : Specify the Hardware parameters file
+	--HW_file='data/hw/accelerator_1.m' : Specify the Hardware parameters file
 
 This file contains Hardware Description as follows:
 
 
-===============  ======================
-NumPEs: 1024     **Number of PEs**
-L1Size: 256	     **l1 buffer size**
-L2Size: 4096     **l2 buffer size**
-NoC_BW: 64       **NoC bandwidth**
-===============  ======================
+=====================  =======================================================================
+NumPEs: 1024            **Number of PEs**
+L1Size: 256             **l1 buffer size**
+L2Size: 4096            **l2 buffer size**
+NoC_BW: 64              **NoC bandwidth**
+noc_hop_latency: 1      **NoC latency per hops**
+noc_mc_support: true    **NoC multicast support (In current dev version it's always on)**
+num_pe_alus:1           **PE ALU vector width**
+=====================  =======================================================================
 
 .. note::
    For more information on the Hardware Supported, please see
@@ -62,7 +51,7 @@ NoC_BW: 64       **NoC bandwidth**
 
 .. _Mapping Definition:
 
-Mapping Definition
+Mapping Description
 ------------------
 
 A mapping is a MAESTRO input file which contains a DNN model and the dataflow for each layer.
@@ -95,7 +84,7 @@ A mapping is a MAESTRO input file which contains a DNN model and the dataflow fo
 ===================================================  =========================================================
 Network MobileNetV2                                  **DNN MODEL NAME**
 Layer CONV1                                          **LAYER NAME**
-Type: CONV                                           **TYPE OF CONVOLUTION**
+Type: CONV                                           **TYPE OF LAYER**
 Dimensions { K: 32, C: 3, R: 1, S: 1, Y:224, X:224}  **LAYER DIMENSIONS**
 Dataflow                                             **DATAFLOW FOR THE LAYER IN MAESTRO COMPILER DIRECTIVES**
 ===================================================  =========================================================
