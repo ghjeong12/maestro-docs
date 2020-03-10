@@ -12,4 +12,4 @@ Hardware configuration can be defined using hardware parameters above and cluste
 
 .. image:: images/example_hw.png
 
-MAESTRO supports any level of hierarchies but only supports uniform clusters (e.g., MAESTRO cannot support an accelerator with a 2D PE array that has irregular number of PEs in each row).
+MAESTRO supports any level of hierarchies but only supports uniform clusters (e.g., MAESTRO does not support an accelerator with a 2D PE array that has irregular number of PEs in each row).
