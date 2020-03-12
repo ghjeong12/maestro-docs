@@ -52,7 +52,7 @@ num_pe_alus:1           **PE ALU vector width**
 .. _Mapping Definition:
 
 Mapping Description
-------------------
+--------------------
 
 A mapping is a MAESTRO input file which contains a DNN model and the dataflow for each layer.
 
@@ -179,7 +179,7 @@ Go back to the maestro-dev directory
 
 	cd ../../
 
-Change the contents of "run.sh" to use the mapping file generated
+Change the contents of "run_example.sh" to use the mapping file generated
 
 .. code-block:: none
 
@@ -189,4 +189,4 @@ Run MAESTRO
 
 .. code:: bash
 
-	./run.sh
+	./run_example.sh
