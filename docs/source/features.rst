@@ -8,3 +8,4 @@ Features Supported
 
    layer_supported
    hw_supported
+   status_matrix
