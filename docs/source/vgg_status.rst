@@ -4,5 +4,8 @@ Status Matrix For VGG16
 ===========================
 
 .. image:: images/vgg16_layers.png
-  :scale: 60%
-  :align: left
+  :scale: 40%
+  :align: center
+
+.. note::
+    For more information on VGG16, refer `<https://arxiv.org/pdf/1409.1556.pdf>`_

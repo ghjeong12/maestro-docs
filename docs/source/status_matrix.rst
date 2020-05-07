@@ -12,3 +12,4 @@ Status Matrix For Following DNN MODELS
    unet_status
    squeezenet_status
    googlenet_status
+   Resnext50_status
