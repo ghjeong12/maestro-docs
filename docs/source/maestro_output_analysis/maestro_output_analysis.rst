@@ -1,6 +1,6 @@
 .. _Result Analysis:
 
-Result Analysis using Jupyter Notebooks
+Result Analysis with Jupyter Notebooks
 ========================================
 
 .. note::
@@ -27,7 +27,7 @@ MAESTRO
    different layers need to be optimally mapped for high utilization and
    energy-efficiency.
 
-MAESTRO result Analysis
+MAESTRO Result Analysis
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 -  This script is written to analyse the detailed output of Maestro per

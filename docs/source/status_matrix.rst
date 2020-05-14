@@ -1,6 +1,6 @@
-.. _Status Matrix For Following DNN Models:
+.. _Status Matrix for DNN Models:
 
-Status Matrix For Following DNN MODELS
+Status Matrix for DNN Models
 =========================================
 
 .. toctree::
@@ -13,3 +13,6 @@ Status Matrix For Following DNN MODELS
    squeezenet_status
    googlenet_status
    Resnext50_status
+   mnasnet_status
+   gnmt_status
+   ncf_status
