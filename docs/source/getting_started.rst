@@ -6,7 +6,7 @@ Getting Started
    :maxdepth: 1
 
    installation
-   tutorials/running_maestro
+   examples/running_maestro
    maestro_output
    maestro_output_analysis/maestro_output_analysis.rst
    examples
