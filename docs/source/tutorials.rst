@@ -4,7 +4,7 @@ Tutorials
 
 .. toctree::
    :maxdepth: 1
-   
-   tutorials/isca2018.rst
-   tutorials/hpca2019.rst
-   tutorials/micro2019.rst
+
+   MAERI+MAESTRO Tutorial - ISCA 2018 <http://synergy.ece.gatech.edu/tools/maeri/maeri_tutorial_isca2018/>
+   MAERI+MAESTRO Tutorial - HPCA 2019 <http://synergy.ece.gatech.edu/tools/maeri/maeri-tutorial-hpca-2019/>
+   tutorials/micro2020.rst
