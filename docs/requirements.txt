@@ -1,6 +1,6 @@
 commonmark==0.9.1
 docutils==0.16
-nbconvert==5.6.1
+nbconvert==6.5.1
 nbformat==4.4.0
 nbsphinx==0.5.1
 recommonmark==0.6.0
